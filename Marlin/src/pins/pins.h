@@ -476,6 +476,8 @@
   #include "sam/pins_PRINTRBOARD_G2.h"          // SAM3X8C                                env:DUE_USB
 #elif MB(ADSK)
   #include "sam/pins_ADSK.h"                    // SAM3X8C                                env:DUE env:DUE_debug
+#elif MB(AZORINA23)
+  #include "sam/pins_AZORINA23.h"               // SAM3X8C                                env:DUE env:DUE_debug
 
 //
 // STM32 ARM Cortex-M0
